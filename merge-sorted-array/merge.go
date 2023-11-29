@@ -16,7 +16,7 @@ func Merge(nums1 []int, m int, nums2 []int, n int) []int {
 
 func Merge2(nums1 []int, m int, nums2 []int, n int) []int {
 	// 双指针解法
-    // 由于两个切片是有序的
+	// 由于两个切片是有序的
 	// 可以将两个切片视作队列
 	// 每次取切片头比大小
 	// 小的放临时切片
@@ -29,8 +29,8 @@ func Merge2(nums1 []int, m int, nums2 []int, n int) []int {
 		}
 		if p2 == n {
 			sorted = append(sorted, nums1[p1:]...)
+			break
 		}
-
 		if nums1[p1] < nums2[p2] {
 			sorted = append(sorted, nums1[p1])
 			p1++
@@ -39,7 +39,6 @@ func Merge2(nums1 []int, m int, nums2 []int, n int) []int {
 			p2++
 		}
 	}
-
 	copy(nums1, sorted)
 	return nums1
 }
