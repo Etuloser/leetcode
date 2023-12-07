@@ -1,5 +1,6 @@
 # leetcode 个人解题记录
 
+* [13.罗马数字转整数](https://leetcode.cn/problems/roman-to-integer)
 * [26.删除排序数组中的重复项](https://github.com/Etuloser/leetcode/tree/main/remove-duplicates-from-sorted-array)
 * [27.移除元素](https://github.com/Etuloser/leetcode/tree/main/remove-element)
 * [80.删除排序数组中的重复项 II](https://github.com/Etuloser/leetcode/tree/main/remove-duplicates-from-sorted-array-ii)
