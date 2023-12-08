@@ -6,7 +6,7 @@ func solution1(s string) (ans int) {
 	for s[index] == ' ' {
 		index--
 	}
-	for index > 0 && s[index] != ' ' {
+	for index >= 0 && s[index] != ' ' {
 		ans++
 		index--
 	}
